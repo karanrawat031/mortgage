@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!--<link rel="stylesheet" href="K:/websites/blog/css/style.css">
+<link rel="stylesheet" href="K:/websites/blog/css/styles.css">-->
+<!--<link rel="stylesheet" href="K:\websites\bloger\css\bootstrap.min.css">-->
+<link rel="shortcut icon" href="icon.ico">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<title>KR-BLOG</title>
+</head>
+<style>
+#body{
+  background-color: #007f80;
+
+}
+#result{
+}
+h3{
+    text-align: center;
+}
+#result{
+    float: center;
+}
+</style>
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="60">
+ <div class="container">
+ 	<h3>Mortgage Calculator</h3>
+    <br><br>
+ </div>
+ <div class="container">
+ 	<section>
+                <div id="sub">
+                        <form  action="" class="form-inline">
+                            <div class="form-group">
+                                <label for="input">Cost of house</label>
+                             &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form-control" id="costofhouse" placeholder="Loan Money">
+                                </div> <br><br> 
+                             <div class="form-group">
+                                <label for="input">down payment</label>
+                             &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="form-control" id="downpayment" placeholder="Loan Money">
+                                </div>
+                           <br><br> <div class="form-group">
+                                <label for="input">APR(Interest)</label>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  <input type="text" class="form-control" id="interest" placeholder="Interest">
+                                </div>
+                            <br><br><div class="form-group">
+                                <label for="input">Time Period(Monthly)</label>
+                            &nbsp;&nbsp;&nbsp;&nbsp;    <input type="text" class="form-control" id="time" placeholder="Time">
+                                </div>
+                           <br><hr><hr>
+                        </form> <!--Anything that is to be dislayed out on the screen should not get into the form element as elements in the form is suplied to the server. -->
+                        <button id="enter">Enter</button><hr><hr>
+                                                       <h3><b>Calculated Amount is:<span id="result"></span></b></h3>
+                </div>
+    </section>
+ </div>	
+</body>
+<script src="script.js"></script>
+</html>	
